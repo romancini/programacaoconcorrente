@@ -1,9 +1,47 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="br.edu.ifspsaocarlos.sdm.programacaoconcorrente.CadastroActivity">
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/nome_completo"
+        android:labelFor="@+id/et_nome"/>
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/et_nome"
+        android:maxLines="1"
+        android:inputType="text">
+        <requestFocus />
+    </EditText>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/usuario"
+        android:labelFor="@+id/et_usuario"/>
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/et_usuario"
+        android:inputType="text"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/senha"
+        android:labelFor="@+id/et_senha"/>
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/et_senha"
+        android:inputType="textPassword"/>
+    <Button
+        android:id="@+id/btn_cadastro_usuario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/cadastrar"
+        android:textAlignment="center"/>
 
-</android.support.constraint.ConstraintLayout>
+</LinearLayout>
+

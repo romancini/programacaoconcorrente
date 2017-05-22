@@ -26,7 +26,7 @@ public class CarregandoActivity extends Activity {
             super.handleMessage(m);
             switch (m.what){
                 case ABRIR_ACTIVITY_PRINCIPAL:
-                    Intent intent = new Intent(CarregandoActivity.this, PrincipalActivity.class);
+                    Intent intent = new Intent(CarregandoActivity.this, CadastroActivity.class);
                     startActivity(intent);
                     finish();
                     break;

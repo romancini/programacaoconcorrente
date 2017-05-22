@@ -5,4 +5,8 @@
     <string name="texto_botao">Clique aqui</string>
     <string name="texto_inicial">Este texto será alterado</string>
     <string name="texto_alterado">Texto foi alterado pelo clique no botão</string>
+    <string name="nome_completo">Nome Completo</string>
+    <string name="usuario">Usuário</string>
+    <string name="senha">Senha</string>
+    <string name="cadastrar">Cadastrar</string>
 </resources>
